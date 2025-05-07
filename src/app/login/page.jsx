@@ -5,6 +5,10 @@ import Footer from '../components/Footer'
 import Link from 'next/link'
 
 function Loginpage() {
+
+
+
+
     return (
         <main>
         <Container>

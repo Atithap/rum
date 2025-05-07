@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import logo from "../../../public/next.svg";
+import logo from "../../../../public/globe.svg";
 import Image from "next/image";
 
 function Navbar() {
@@ -9,7 +9,7 @@ function Navbar() {
       <div className="container mx-auto">
         <div className="flex justify-between items-center px-4 py-2 bg-white">
           <div>
-            <Link href="/">
+            <Link href="/welcome">
               <Image src={logo} alt="Logo" width={100} height={100} />
             </Link>
           </div>
@@ -17,9 +17,9 @@ function Navbar() {
             <li className="mx-3">
               <Link href="/login">Login</Link>
             </li>
-            {/* <li className="mx-3">
+            <li className="mx-3">
               <Link href="/register">Register</Link>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>
