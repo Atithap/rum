@@ -23,6 +23,7 @@ function Registerpage() {
       setError("All fields are required");
       return;
     }
+    
     try {
       const res = await fetch("http://localhost:3000/api/register", {
         method: "POST",
